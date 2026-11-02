@@ -60,3 +60,15 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 30px;
 }
+
+.error-message,
+.empty-message {
+  width: 100%;
+  padding: 1rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.error-message {
+  color: #c0392b;
+}
